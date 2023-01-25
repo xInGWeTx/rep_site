@@ -1,0 +1,86 @@
+body{
+    font:normal 13px/20px Arial,Helvetica,sans-serif;
+    word-wrap:break-word;}
+#countdown{
+    width:465px;
+    height:112px;
+    text-align:center;
+    background:#222;
+    border:1px solid #111;
+    border-radius:5px;
+    box-shadow:0 0 8px rgba(0,0,0,0.6);
+    margin:auto;
+    padding:24px 0;
+    margin-bottom: 10px;
+}
+#countdown #tiles > span{
+    width:92px;
+    max-width:92px;
+    font:bold 48px 'Droid Sans',Arial,sans-serif;
+    text-align:center;
+    color:#111;
+    background-color:#ddd;
+    background-image:-webkit-linear-gradient(top,#bbb,#eee);
+    background-image:-moz-linear-gradient(top,#bbb,#eee);
+    background-image:-ms-linear-gradient(top,#bbb,#eee);
+    background-image:-o-linear-gradient(top,#bbb,#eee);
+    border-top:1px solid #fff;
+    border-radius:3px;
+    box-shadow:0 0 12px rgba(0,0,0,0.7);
+    margin:0 7px;
+    padding:18px 0;
+    display:inline-block;
+    position:relative
+}
+#countdown .labels li{
+    width:102px;
+    font:bold 15px 'Droid Sans',Arial,sans-serif;
+    color:#f47321;
+    text-shadow:1px 1px 0 #000;
+    text-align:center;
+    text-transform:uppercase;
+    display:inline-block;
+    padding-top:10px;
+}
+@media(max-width:576px){
+    #countdown{
+        width: 400px;
+    }
+    #countdown #tiles > span{
+        width: 85px;
+        font:bold 30px 'Droid Sans',Arial,sans-serif;
+        
+    }
+    #countdown .labels li{
+        width: 90px;
+        font:bold 15px 'Droid Sans',Arial,sans-serif;
+    }
+}
+@media(max-width:390px){
+    #countdown{
+        width: 300px;
+    }
+    #countdown #tiles > span{
+        width: 55px;
+        font:bold 25px 'Droid Sans',Arial,sans-serif;
+        
+    }
+    #countdown .labels li{
+        width: 60px;
+        font:bold 13px 'Droid Sans',Arial,sans-serif;
+    }
+}
+@media(max-width:280px){
+    #countdown{
+        width: 260px;
+    }
+    #countdown #tiles > span{
+        width: 50px;
+        font:bold 28px 'Droid Sans',Arial,sans-serif;
+        
+    }
+    #countdown .labels li{
+        width: 60px;
+        font:bold 14px 'Droid Sans',Arial,sans-serif;
+    }
+}

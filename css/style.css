@@ -1,0 +1,647 @@
+/* promo */
+body{
+    margin: 0;
+    padding: 0;
+}
+.main_top{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(135,160,198,1) 30%, rgba(0,194,255,1) 91%);
+}
+.header_title{
+    font-style: italic;
+    margin: 0;
+    padding-top:17.4px;
+    padding-bottom:17.4px;
+}
+.promo{
+    display: flex;
+    padding-bottom: 50px;
+}
+.right_pic{
+    width: 50%;
+    text-align: left;
+    margin-left:40px;
+}
+.left_pic{
+    width: 50%;
+    text-align: right;
+    margin-right: 40px;
+}
+.list_left{
+    list-style: none;
+    padding:0;
+}
+.img_width{
+    width: 150px;
+}
+.container{
+    text-align: center;
+}
+.but{
+    background-color: rgb(241, 235, 235);
+    border:none;
+    border-radius:30px ;
+    width: 100px;
+    font-size: 16px;
+    padding:10px 0;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.but_right{
+    background-color: rgb(241, 235, 235);
+    border:none;
+    border-radius:30px ;
+    width: 100px;
+    font-size: 16px;
+    padding:10px 0;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.line {
+    border-bottom: 4px solid #353535;
+}
+
+/*product*/
+
+.product{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 200px;
+    box-sizing:border-box;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(97,97,190,1) 35%, rgba(0,212,255,1) 100%);
+}
+.img_arginin{
+    width: 195px;
+    height: 185px;
+    border-radius:100px;
+}
+.ingr p{
+    font-size: 35px;
+    background-color:rgba(6, 6, 189, 0.171);
+    border-radius:20px;
+    padding: 15px;
+}
+.img_center{
+    height: 600px;
+}
+.but_center{
+    background-color: rgb(241, 235, 235);
+    border:none;
+    border-radius:30px ;
+    width: 100px;
+    font-size: 16px;
+    padding:10px 0;
+    position: absolute;
+    bottom:-400px;
+    right: 50%;
+    cursor: pointer;
+}
+
+/* reviews */
+.main_reviews{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(97,135,190,1) 35%, rgba(0,212,255,1) 100%);
+}
+.but_top{
+    background:url(../img/arrow_drop_down.png);
+    transform: rotate(180deg) translate(-35px,5px);
+    border:none;
+    width: 6px;
+    height: 6px;
+    
+}
+.but_bottom{
+    background:url(../img/arrow_drop_down.png);
+    border:none;
+    width: 6px;
+    height: 6px;
+    transform:translate(35px,5px);
+}
+.slide_reviews{
+    text-align: center;
+    height: 400px;
+    overflow: hidden;
+    box-sizing:border-box;
+}
+.center_reviews{
+    width: 40%;
+    margin: 0 auto;
+}
+.john_title{
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight:700;
+    text-align: left;
+    margin:0;
+}
+.kha_title{
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight:700;
+    text-align: left;
+    margin:0;
+}
+.john_text{
+    color:#adb5b9;
+    margin: 0;
+}
+.kha_text{
+    color:#adb5b9;
+    margin: 0;
+}
+.john_img{
+    position: absolute;
+    left:-100px;
+}
+.kha_img{
+    position: absolute;
+    left:-100px;
+}
+.one_review{
+    border:2px solid black;
+    border-radius:10px;
+    padding: 4.5px;
+    box-sizing:border-box;
+    overflow: hidden;
+    padding-left:10px;
+    text-align: left;
+    background-color:#fff;
+}
+.two_review{
+    border:2px solid black;
+    border-radius:10px;
+    padding: 10px;
+    box-sizing:border-box;
+    overflow: hidden;
+    padding-left:10px;
+    text-align: left;
+    background-color:#fff;
+}
+.three_review{
+    border:2px solid black;
+    border-radius:10px;
+    padding: 4px;
+    box-sizing:border-box;
+    overflow: hidden;
+    padding-left:10px;
+    text-align: left;
+    background-color:#fff;
+}
+
+/* people */
+.people_img{
+    width: 300px;
+}
+.main_pic{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(135,160,198,1) 30%, rgba(0,194,255,1) 91%);
+}
+.top_pic{
+    display: flex;
+    width: 600px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.text_link{
+    margin-bottom: 0;
+}
+.foot_pic li{
+    display: inline;
+    padding-left: 10px;
+    font-size: 18px;
+}
+.but_pic{
+    background-color: rgb(241, 235, 235);
+    border:none;
+    border-radius:30px ;
+    width: 100px;
+    font-size: 18px;
+    padding:10px 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+/* footer */
+.main_form{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(97,135,190,1) 35%, rgba(0,212,255,1) 100%);
+}
+.name{
+    padding:13px;
+}
+.phone{
+    padding:10px;
+}
+.top_form{
+    display: flex;
+    flex-direction: column;
+    width: 570px;
+    gap: 10px;
+    margin:0 auto;
+}
+.center_form{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+.left_form{
+    border:1px solid black;
+    padding: 10px;
+    margin-top: 10px;
+}
+.left_form_top{
+    border:1px solid black;
+    width: 250px;
+    height: 215px;
+}
+.left_form_bottom{
+    border:1px solid black;
+    margin-top: 10px;
+    width: 250px;
+    height: 100px;
+}
+.right_form{
+    border:1px solid black;
+    width: 272px;
+    height: 350px;
+    margin-top: 10px;
+}
+.right_img{
+    width: 250px;
+    height: 330px;
+    padding-top:10px;
+}
+.little_price{
+    text-decoration: line-through;
+    font-size: 25px;
+}
+.main_price{
+    color:red;
+    font-size: 65px;
+}
+.button_form{
+    font-size: 25px;
+    color:rgb(27, 27, 189);
+    background-color:rgba(216, 214, 214, 0.479);
+    cursor: pointer;
+}
+
+@media (max-width:1200px){
+    .product{
+        padding-left: 100px;
+    }
+    .but_center{
+        bottom:-450px;
+        right: 400px;
+    }
+    .ingr p{
+        font-size: 25px;
+        padding: 10px;
+    }
+}
+@media(max-width:768px){
+    .img_center{
+        width: 250px;
+        height: 300px;
+    }
+    .img_arginin{
+        width: 100px;
+        height: 100px;
+    }
+}
+@media(max-width:576px){
+    .container{
+        width: auto;
+    }
+    .top_pic{
+        width: 410px;
+        height: 340px;
+        padding-right: 10px;
+        padding-left: 10px;
+        box-sizing:border-box;
+    }
+    .foot_pic{
+        width: 310px;
+        margin: 0 auto;
+    }
+    
+    .right_descrip{
+        overflow: auto;
+    }
+    .product{
+        padding-left:10px;
+        padding-right: 10px;
+        box-sizing:border-box;
+    }
+    .img_center{
+        width: 160px;
+        height: 260px;
+    }
+    .kha_img{
+        left: -70px;
+    }
+    .john_img{
+        left:-70px;
+    }
+    .one_review{
+        width: 280px;
+        overflow: auto;
+    }
+    .two_review{
+        width: 280px;
+        overflow: auto;
+    }
+    .three_review{
+        width: 280px;
+        overflow: auto;
+    }
+    .top_form{
+        width: 405px;
+    }
+    .center_form{
+        width: 405px;
+        gap:7px;
+    }
+    .left_form{
+        width: 190px;
+    }
+    .left_form_top{
+        width: 185px;
+    }
+    .left_form_bottom{
+        width: 185px;
+    }
+    .right_form{
+        width: 195px;
+    }
+    .right_img{
+        width: 190px;
+        height: 300px;
+        padding-top: 30px;
+    }
+    .but_center{
+        bottom:-180px;
+        right: 230px;
+    }
+}
+@media(max-width:390px){
+    .container{
+        width: auto;
+    }
+    .img_arginin{
+        width: 50px;
+        height: 50px;
+    }
+    .promo{
+        padding-left: 1px;
+        padding-right:2px;
+    }
+    .product{
+        width: auto;
+        padding-right:10px;
+        padding-left: 10px;
+    }
+    .ingr p{
+        font-size: 15px;
+    }
+    .left_pic{
+        margin: 0;
+    }
+    .right_img{
+        width: 165px;
+        height: 300px;
+    }
+    .img_width{
+        width: 80px;
+    }
+    .list_left{
+        text-align: center;
+    }
+    .img_center{
+        width: 150px;
+        height: 230px;
+    }
+    .kha_img{
+        left: -70px;
+    }
+    .john_img{
+        left:-70px;
+    }
+    .one_review{
+        width: 200px;
+        overflow: auto;
+    }
+    .two_review{
+        width: 200px;
+        overflow: auto;
+    }
+    .three_review{
+        width: 200px;
+        overflow: auto;
+    }
+    .but_center{
+        bottom:95px;
+        right: 95px;
+    }
+    .right_descrip{
+        width: 130px;
+        height: 300px;
+        overflow: auto;
+    }
+    .people_img{
+        width: 180px;
+        height: 300px;
+    }
+    .text_link{
+        width: 260px;
+    }
+    .top_pic{
+        width: 310px;
+    }
+    .main_pic{
+        padding-left: 10px;
+        padding-right: 10px;
+        box-sizing:border-box;
+    }
+    .top_form{
+        width: 300px;
+        box-sizing:border-box;
+    }
+    .left_form{
+        margin-left:15px;
+        width: 170px;
+        box-sizing:border-box;
+        padding: 10px;
+    }
+    .main_price{
+        font-size: 55px;
+    }
+    .little_price{
+        font-size: 20px;
+    }
+    .left_form_top{
+        width: 150px;
+    }
+    .left_form_bottom{
+        width: 150px;
+    }
+    .right_img{
+        width: 100px;
+        height: 250px;
+        padding-top: 50px;
+    }
+    .center_form{
+        margin: 0;
+        width: 310px;
+        gap:10px;
+    }
+
+}
+@media(max-width:280px){
+    .container{
+        width: auto;
+    }
+    .img_arginin{
+        width: 50px;
+        height: 50px;
+    }
+    .promo{
+        padding-left: 1px;
+        padding-right:2px;
+        width: auto;
+    }
+    .right_pic{
+        width: 110px;
+        margin-left:20px;
+    }
+    .right_pic img{
+        margin-left: 25px;
+    }
+    .left_pic{
+        width: 110px;
+        padding-left: 10px;
+    }
+    .but_right{
+        margin: 0;
+    }
+    .but{
+        margin: 0;
+    }
+    .product{
+        width: auto;
+        padding-right:10px;
+        padding-left: 10px;
+    }
+    .ingr p{
+        font-size: 15px;
+    }
+    .left_pic{
+        margin: 0;
+    }
+    .right_img{
+        width: 165px;
+        height: 300px;
+    }
+    .img_width{
+        width: 80px;
+    }
+    .list_left{
+        text-align: center;
+    }
+    .img_center{
+        width: 130px;
+        height: 210px;
+    }
+    .kha_img{
+        left: -70px;
+    }
+    .john_img{
+        left:-70px;
+    }
+    .one_review{
+        width: 190px;
+        overflow: auto;
+    }
+    .two_review{
+        width: 190px;
+        overflow: auto;
+    }
+    .three_review{
+        width: 190px;
+        overflow: auto;
+    }
+    .but_center{
+        bottom:-145px;
+        right: 95px;
+    }
+    .right_descrip{
+        width: 130px;
+        height: 300px;
+        overflow: auto;
+    }
+    .people_img{
+        width: 150px;
+        height: 260px;
+    }
+    .text_link{
+        width: 260px;
+        margin: 0;
+        padding: 0;
+    }
+    .top_pic{
+        width:270px;
+    }
+    .text_link{
+        padding-left:10px;
+    }
+    .foot_pic{
+        width: 270px;
+    }
+    .main_pic{
+        padding-left: 10px;
+        padding-right: 10px;
+        box-sizing:border-box;
+    }
+    .top_form{
+        width: 265px;
+        box-sizing:border-box;
+    }
+    .left_form{
+        width: 170px;
+        box-sizing:border-box;
+        padding: 10px;
+        height: 280px;
+    }
+    .right_form{
+        height: 280px;
+        width: 90px;
+    }
+    .main_price{
+        font-size: 45px;
+    }
+    .little_price{
+        font-size: 20px;
+    }
+    .left_form_top{
+        width: 150px;
+        height: 160px;
+    }
+    .left_form_bottom{
+        width: 150px;
+        height: 90px;
+    }
+    .right_img{
+        width: 90px;
+        height: 220px;
+        padding-top: 50px;
+    }
+    .center_form{
+        margin: 0;
+        width: 270px;
+        gap:10px;
+    }
+
+}
