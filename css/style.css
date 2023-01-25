@@ -291,7 +291,7 @@ body{
 
 @media (max-width:1200px){
     .product{
-        padding-left: 100px;
+        padding-left: 30px;
     }
     .but_center{
         bottom:-450px;
@@ -300,6 +300,9 @@ body{
     .ingr p{
         font-size: 25px;
         padding: 10px;
+    }
+    .img_center{
+        width: 350px;
     }
 }
 @media(max-width:768px){
@@ -443,8 +446,8 @@ body{
         overflow: auto;
     }
     .but_center{
-        bottom:95px;
-        right: 95px;
+        bottom:-75px;
+        right: 145px;
     }
     .right_descrip{
         width: 130px;
@@ -459,7 +462,10 @@ body{
         width: 260px;
     }
     .top_pic{
-        width: 310px;
+        width: 100%;
+        padding: 0;
+        padding-top:10px;
+        padding-left: 10%;
     }
     .main_pic{
         padding-left: 10px;
@@ -467,7 +473,7 @@ body{
         box-sizing:border-box;
     }
     .top_form{
-        width: 300px;
+        width: 98%;
         box-sizing:border-box;
     }
     .left_form{
@@ -495,8 +501,11 @@ body{
     }
     .center_form{
         margin: 0;
-        width: 310px;
+        width: 98%;
         gap:10px;
+    }
+    .right_form{
+        width: 100%;
     }
 
 }
