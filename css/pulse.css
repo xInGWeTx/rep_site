@@ -44,3 +44,8 @@
     width: 140px;
   }
 }
+@media(max-width:280px){
+  .pulse{
+    margin-top: 0;
+  }
+}
